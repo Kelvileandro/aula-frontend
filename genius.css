@@ -1,0 +1,124 @@
+body {
+    margin:0;
+    background-color: white;
+    
+}
+
+.capa {
+    height: 100vh;
+    width: 100vw;
+    display: absolute;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.jogo {
+    display: grid;
+    grid-template-areas: 'verde vermelho' 'amarelo azul';
+    grid-gap: 40px;
+    border: 40px solid black;
+    background-color: black;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    padding: 0px;
+    margin-top: 20px;
+    
+}
+
+#miolo {
+    border: 0px solid gray;
+    background-color: black;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    padding: 1px;
+    margin-top: 2px;
+    left: 190px;
+    top: -390px;
+    display: absolute;
+    justify-content:center;
+    position:relative;
+    color: rgba(219, 210, 210, 0.568);
+    
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    
+    
+}
+
+.botoes {
+
+    font-size: 15px;
+    font-family: 'Courier New';
+    color: rgba(214, 75, 20, 0.514);
+}
+
+.blue {
+    grid-area: azul;
+    background-color: rgba(0, 0, 255, 0.836);
+    border-bottom-right-radius: 100%;
+    cursor: pointer;
+    
+}
+
+.red {
+    grid-area: vermelho;
+    background-color: rgba(238, 13, 13, 0.534);
+    border-top-right-radius: 100%;
+    cursor: pointer;
+    
+}
+
+.yellow {
+    grid-area: amarelo;
+    background-color: rgba(255, 230, 0, 0.596);
+    border-bottom-left-radius: 100%;
+    cursor: pointer;
+    
+}
+
+.green {
+    grid-area: verde;
+    background-color: green;
+    border-top-left-radius: 100%;
+    cursor: pointer;
+    
+}
+
+.blue:active {
+    opacity: 0.25;
+    
+}
+
+.blue:hover {
+    background-color: rgb(15, 137, 252);
+}
+
+.red:active {
+    opacity: 0.25;
+}
+
+.red:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+.green:active {
+    opacity: 0.25;
+}
+
+.green:hover {
+    background-color: rgb(84, 236, 13);
+}
+
+.yellow:active {
+    opacity: 0.25;
+}
+
+.yellow:hover {
+    background-color: rgb(255, 251, 0);
+}
+
