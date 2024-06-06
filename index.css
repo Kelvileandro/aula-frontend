@@ -1,0 +1,13 @@
+h1 {color:rgb(87, 81, 81);
+    text-align: center;}
+
+.borda {margin:auto;
+        border-style: solid;
+        border-color: rgb(109, 106, 106);
+        border-radius: 5px;
+        background-color: rgb(160, 159, 149);
+        height: 50px;
+        width: 200px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 10px;
+        }
